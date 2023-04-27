@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    const parede = prompt('Qual o tamanho em metros quadrados da sua parede?')
+    const areacimento = (Number(parede) / 100) * 3 
+    const areavalida = Number(parede) - Number(areacimento)
+
+    const tijolo = (Number(19) * Number(19)) / 100
+    const total = Number(areavalida) - Number(tijolo)
+
+    alert(`Você precisará de ${total} tijolos para contruir a parede.`)
+
+
+</script>

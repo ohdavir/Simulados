@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    const precoguarrafa = prompt('Informe o preço da garrafa de refrigerante.')
+
+    const dezporcem = (Number(precoguarrafa) / 100) * Number(10)
+    const precoduaspordez = Number(precoguarrafa) - Number(dezporcem)
+    const duasguarrafa = (Number(precoguarrafa) * 2) - (Number(dezporcem) * 2)
+
+    const quinzeporcem = (Number(precoguarrafa) / 100) * Number(15)
+    const precotresporquinze = Number(precoguarrafa) - Number(quinzeporcem)
+    const tresguarrafa = (Number(precoguarrafa) * 3) - (Number(quinzeporcem) * 3)
+
+    alert(`Ao comprar uma guarrafa você receberá 0% de desconto em cada uma delas, saindo R$${precoguarrafa} por unidade, somando R$${precoguarrafa} no total`)
+    alert(`Ao comprar duas guarrafas você receberá 10% de desconto em cada uma delas, saindo R$${precoduaspordez} por unidade, somando R$${duasguarrafa} no total`)
+    alert(`Ao comprar duas guarrafas você receberá 15% de desconto em cada uma delas, saindo R$${precotresporquinze} por unidade, somando R$${tresguarrafa} no total`)
+
+</script>
